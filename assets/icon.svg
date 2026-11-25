@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="toothGrad" x1="128" y1="96" x2="384" y2="432" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <path d="M182 118C144 118 116 150 116 196C116 245 138 282 152 332C164 374 172 414 196 414C218 414 226 364 256 364C286 364 294 414 316 414C340 414 348 374 360 332C374 282 396 245 396 196C396 150 368 118 330 118C298 118 280 136 256 136C232 136 214 118 182 118Z" fill="url(#toothGrad)"/>
+  <path d="M210 186C228 202 284 202 302 186" stroke="#0d9488" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="380" cy="132" r="36" fill="#10b981" stroke="#ffffff" stroke-width="10"/>
+  <path d="M366 132H394M380 118V146" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+</svg>
